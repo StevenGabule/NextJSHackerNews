@@ -1,0 +1,25 @@
+{
+  "name": "next-hacker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build",
+    "deploy": "now --public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "sw-precache-webpack-plugin": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "win-node-env": "^0.4.0"
+  }
+}
